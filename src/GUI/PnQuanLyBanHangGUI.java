@@ -1040,7 +1040,7 @@ public class PnQuanLyBanHangGUI extends JPanel {
             if (maTbl == key) {
                 int soLuongAdd = Integer.parseInt(tblGioHang.getValueAt(i, 2) + "");
                 soLuongAdd += soLuong;
-                donGia = donGia.replace(",", "");
+                donGia = donGia.replace(".", "");
                 int donGiaSP = Integer.parseInt(donGia);
 
                 tblGioHang.setValueAt(soLuongAdd, i, 2);

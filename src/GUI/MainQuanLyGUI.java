@@ -13,7 +13,7 @@ public class MainQuanLyGUI extends JFrame {
 
     public MainQuanLyGUI() {
         this.setTitle("Phần mềm quản lý cửa hàng pizza");
-        this.setSize(1280, 870);
+        this.setSize(1280, 860);
         Image icon = Toolkit.getDefaultToolkit().getImage("image/ManagerUI/icon-app.png");
         this.setIconImage(icon);
         addControls();

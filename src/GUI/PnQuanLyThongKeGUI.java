@@ -119,7 +119,7 @@ public class PnQuanLyThongKeGUI extends JPanel {
         lblDoanhThuQuy2.setFont(font1);
         lblDoanhThuQuy3.setFont(font1);
         lblDoanhThuQuy4.setFont(font1);
-        font1 = new Font("Tahoma", Font.BOLD, 28);
+        font1 = new Font("Tahoma", Font.BOLD, 26);
         lblTongDoanhThu.setFont(font1);
 
         lblDoanhThuQuy1.setForeground(Color.WHITE);
