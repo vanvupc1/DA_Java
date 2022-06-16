@@ -19,9 +19,17 @@ public class HoaDonBUS {
 
     private ArrayList<HoaDon> listHoaDon;
     private HoaDonDAO hoaDonDAO = new HoaDonDAO();
-
+    public HoaDonBUS() {
+        docDanhSach();
+    }
+    public void docDanhSach() {
+        this.listHoaDon = hoaDonDAO.getListHoaDon();
+    }
     public ArrayList<HoaDon> getListHoaDon() {
-        listHoaDon = hoaDonDAO.getListHoaDon();
+        if (listHoaDon == null){
+             docDanhSach();
+        }
+       
         return listHoaDon;
     }
 

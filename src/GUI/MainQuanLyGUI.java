@@ -152,7 +152,7 @@ public class MainQuanLyGUI extends JFrame {
         pnCard.add(pnKhachHang, "6");
         pnCard.add(pnThongKe, "7");
 
-        //==========ADD PANEL BÁN HÀNG + KHUYẾN MÃI (Ko phân quyền)==========
+//        ==========ADD PANEL BÁN HÀNG + KHUYẾN MÃI (Ko phân quyền)==========
         banHangPanel = new PnQuanLyBanHangGUI();
         pnBanHang.setLayout(new BorderLayout());
         pnBanHang.add(banHangPanel, BorderLayout.CENTER);
